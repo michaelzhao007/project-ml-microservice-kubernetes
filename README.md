@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/michaelzhao007/project-ml-microservice-kubernetes/tree/master.svg?style=svg)](https://circleci.com/gh/michaelzhao007/project-ml-microservice-kubernetes/tree/master)
 
 # Summary
 We built a docker image and tried both docker deploy and kubernetes deploy. In the end, we tried CircleCI for continuous build process.
