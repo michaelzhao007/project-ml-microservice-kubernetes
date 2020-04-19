@@ -1,5 +1,15 @@
 <include a CircleCI status badge, here>
 
+# Summary
+We built a docker image and tried both docker deploy and kubernetes deploy. In the end, we tried CircleCI for continuous build process.
+
+# Instructions 
+standalone: python app.py (run the app locally)
+docker: ./run_docker.sh (to build docker image and run the docker container in the local) and ./make_predictions.sh (make the predictions)
+kubernetes: ./run_kubernetes.sh (to deploy the docker container in the pod of the local minikube cluster) and ./make_predictions.sh
+circleci: .circleci gives the instructions for circleci to build the application.
+
+
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
@@ -21,7 +31,8 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 **The final implementation of the project will showcase your abilities to operationalize production microservices.**
 
----
+
+
 
 ## Setup the Environment
 
